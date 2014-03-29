@@ -41,7 +41,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 7
 Title ""
 Date "29 mar 2014"
 Rev ""
@@ -113,11 +113,9 @@ F 3 "~" H 5350 3650 60  0000 C CNN
 	1    5350 3650
 	1    0    0    -1  
 $EndComp
-Text HLabel 6200 3850 2    60   Input ~ 0
+Text HLabel 5950 3450 1    60   Input ~ 0
 Vcc_raw
 Wire Wire Line
-	5950 3550 5950 4100
-Wire Wire Line
-	6200 3850 5950 3850
-Connection ~ 5950 3850
+	5950 3450 5950 4100
+Connection ~ 5950 3550
 $EndSCHEMATC

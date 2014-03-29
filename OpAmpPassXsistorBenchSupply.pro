@@ -1,4 +1,4 @@
-update=3/29/2014 1:28:27 AM
+update=3/29/2014 5:58:42 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -50,7 +50,7 @@ NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
-LabSize=60
+LabSize=30
 [eeschema/libraries]
 LibName1=opamps_PL
 LibName2=transistors_PL

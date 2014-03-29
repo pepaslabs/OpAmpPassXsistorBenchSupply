@@ -41,7 +41,7 @@ EELAYER 27 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 1
+Sheet 1 4
 Title ""
 Date "29 mar 2014"
 Rev ""
@@ -53,28 +53,6 @@ Comment4 ""
 $EndDescr
 $Comp
 L BARREL_JACK CON?
-U 1 1 533645A6
-P 1300 1500
-F 0 "CON?" H 1300 1700 40  0000 C CNN
-F 1 "2.5x5.5mm" H 1300 1350 40  0000 C CNN
-F 2 "~" H 1300 1500 60  0000 C CNN
-F 3 "~" H 1300 1500 60  0000 C CNN
-	1    1300 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L BARREL_JACK CON?
-U 1 1 533645B5
-P 1300 2050
-F 0 "CON?" H 1300 2250 40  0000 C CNN
-F 1 "2.1x5.5mm" H 1300 1900 40  0000 C CNN
-F 2 "~" H 1300 2050 60  0000 C CNN
-F 3 "~" H 1300 2050 60  0000 C CNN
-	1    1300 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L BARREL_JACK CON?
 U 1 1 533645C4
 P 1150 9300
 F 0 "CON?" H 1150 9500 40  0000 C CNN
@@ -84,32 +62,8 @@ F 3 "~" H 1150 9300 60  0000 C CNN
 	1    1150 9300
 	1    0    0    -1  
 $EndComp
-Text Notes 950  1200 0    60   ~ 0
-positive supply
 Text Notes 800  9000 0    60   ~ 0
 negative supply
-$Comp
-L GND #PWR?
-U 1 1 533645E2
-P 1700 1700
-F 0 "#PWR?" H 1700 1700 30  0001 C CNN
-F 1 "GND" H 1700 1630 30  0001 C CNN
-F 2 "" H 1700 1700 60  0000 C CNN
-F 3 "" H 1700 1700 60  0000 C CNN
-	1    1700 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 533645F1
-P 1700 2250
-F 0 "#PWR?" H 1700 2250 30  0001 C CNN
-F 1 "GND" H 1700 2180 30  0001 C CNN
-F 2 "" H 1700 2250 60  0000 C CNN
-F 3 "" H 1700 2250 60  0000 C CNN
-	1    1700 2250
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR?
 U 1 1 53364610
@@ -121,8 +75,6 @@ F 3 "" H 1550 9100 60  0000 C CNN
 	1    1550 9100
 	-1   0    0    1   
 $EndComp
-Text GLabel 1900 1300 1    60   Input ~ 0
-Vcc_raw
 Text GLabel 1550 9500 3    60   Input ~ 0
 Vee_raw
 $Comp
@@ -137,17 +89,6 @@ F 3 "" H 9250 4350 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LM317 U?
-U 1 1 53364AC3
-P 3450 1450
-F 0 "U?" H 3250 1610 40  0000 L BNN
-F 1 "LM317" H 3650 1280 40  0000 R TNN
-F 2 "~" H 3450 1450 60  0000 C CNN
-F 3 "~" H 3450 1450 60  0000 C CNN
-	1    3450 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L LM337 U?
 U 1 1 53364AE5
 P 2900 9650
@@ -157,105 +98,6 @@ F 2 "~" H 2900 9650 60  0000 C CNN
 F 3 "~" H 2900 9650 60  0000 C CNN
 	1    2900 9650
 	1    0    0    -1  
-$EndComp
-$Comp
-L C_CER C?
-U 1 1 53364C1A
-P 2950 1700
-F 0 "C?" H 2970 1760 30  0000 L BNN
-F 1 "0.1uF" H 2970 1640 30  0000 L TNN
-F 2 "~" H 2988 1550 30  0000 C CNN
-F 3 "~" H 2950 1700 60  0000 C CNN
-	1    2950 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 53364C3C
-P 2950 2000
-F 0 "#PWR?" H 2950 2000 30  0001 C CNN
-F 1 "GND" H 2950 1930 30  0001 C CNN
-F 2 "" H 2950 2000 60  0000 C CNN
-F 3 "" H 2950 2000 60  0000 C CNN
-	1    2950 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_0W25_1PCT R?
-U 1 1 53364CE5
-P 4200 1750
-F 0 "R?" V 4280 1750 40  0000 C CNN
-F 1 "R_0W25_1PCT" V 4207 1751 40  0000 C CNN
-F 2 "~" V 4130 1750 30  0000 C CNN
-F 3 "~" H 4200 1750 30  0000 C CNN
-	1    4200 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_0W25_1PCT R?
-U 1 1 53364CF4
-P 4200 2450
-F 0 "R?" V 4280 2450 40  0000 C CNN
-F 1 "R_0W25_1PCT" V 4207 2451 40  0000 C CNN
-F 2 "~" V 4130 2450 30  0000 C CNN
-F 3 "~" H 4200 2450 30  0000 C CNN
-	1    4200 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 53364D4A
-P 4200 2800
-F 0 "#PWR?" H 4200 2800 30  0001 C CNN
-F 1 "GND" H 4200 2730 30  0001 C CNN
-F 2 "" H 4200 2800 60  0000 C CNN
-F 3 "" H 4200 2800 60  0000 C CNN
-	1    4200 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_EL C?
-U 1 1 53364D75
-P 3800 2400
-F 0 "C?" H 3820 2460 30  0000 L BNN
-F 1 "10uF" H 3820 2310 30  0000 L TNN
-F 2 "~" H 3838 2250 30  0000 C CNN
-F 3 "~" H 3800 2400 60  0000 C CNN
-	1    3800 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 53364D84
-P 3800 2700
-F 0 "#PWR?" H 3800 2700 30  0001 C CNN
-F 1 "GND" H 3800 2630 30  0001 C CNN
-F 2 "" H 3800 2700 60  0000 C CNN
-F 3 "" H 3800 2700 60  0000 C CNN
-	1    3800 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIODE D?
-U 1 1 53364EC5
-P 3850 1700
-F 0 "D?" H 3850 1800 40  0000 C CNN
-F 1 "1N4148" H 3850 1600 40  0000 C CNN
-F 2 "~" H 3850 1700 60  0000 C CNN
-F 3 "~" H 3850 1700 60  0000 C CNN
-	1    3850 1700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L DIODE D?
-U 1 1 53364F42
-P 3450 1050
-F 0 "D?" H 3450 1150 40  0000 C CNN
-F 1 "1N4148" H 3450 950 40  0000 C CNN
-F 2 "~" H 3450 1050 60  0000 C CNN
-F 3 "~" H 3450 1050 60  0000 C CNN
-	1    3450 1050
-	-1   0    0    1   
 $EndComp
 $Comp
 L R_0W25_1PCT R?
@@ -337,30 +179,9 @@ F 3 "" H 3850 9100 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1600 1600 1700 1600
-Wire Wire Line
-	1700 1500 1700 1700
-Wire Wire Line
-	1600 1500 1700 1500
-Connection ~ 1700 1600
-Wire Wire Line
-	1600 2150 1700 2150
-Wire Wire Line
-	1700 2050 1700 2250
-Wire Wire Line
-	1600 2050 1700 2050
-Connection ~ 1700 2150
-Wire Wire Line
 	1450 9200 1550 9200
 Wire Wire Line
 	1550 9200 1550 9100
-Wire Wire Line
-	1600 1400 1900 1400
-Wire Wire Line
-	1900 1300 1900 1950
-Wire Wire Line
-	1900 1950 1600 1950
-Connection ~ 1900 1400
 Wire Wire Line
 	1450 9400 1550 9400
 Wire Wire Line
@@ -368,34 +189,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 9300 1550 9300
 Connection ~ 1550 9400
-Wire Wire Line
-	2850 1400 3150 1400
-Wire Wire Line
-	2950 1400 2950 1500
-Wire Wire Line
-	2950 1900 2950 2000
-Wire Wire Line
-	4200 1400 4200 1500
-Wire Wire Line
-	3450 1700 3450 2100
-Wire Wire Line
-	3450 2100 4200 2100
-Connection ~ 4200 2100
-Wire Wire Line
-	3800 2600 3800 2700
-Wire Wire Line
-	4200 2700 4200 2800
-Wire Wire Line
-	4200 2000 4200 2200
-Connection ~ 4200 1400
-Wire Wire Line
-	3250 1050 3100 1050
-Wire Wire Line
-	3100 1050 3100 1400
-Connection ~ 3100 1400
-Wire Wire Line
-	2850 1400 2850 1300
-Connection ~ 2950 1400
 Wire Wire Line
 	2400 9700 2600 9700
 Wire Wire Line
@@ -449,33 +242,6 @@ Wire Wire Line
 	3300 9200 3300 9050
 Connection ~ 3300 9050
 $Comp
-L C_EL C?
-U 1 1 533654B1
-P 4450 1700
-F 0 "C?" H 4470 1760 30  0000 L BNN
-F 1 "10uF" H 4470 1610 30  0000 L TNN
-F 2 "~" H 4488 1550 30  0000 C CNN
-F 3 "~" H 4450 1700 60  0000 C CNN
-	1    4450 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 1400 4450 1500
-Connection ~ 4450 1400
-$Comp
-L GND #PWR?
-U 1 1 53365547
-P 4450 2000
-F 0 "#PWR?" H 4450 2000 30  0001 C CNN
-F 1 "GND" H 4450 1930 30  0001 C CNN
-F 2 "" H 4450 2000 60  0000 C CNN
-F 3 "" H 4450 2000 60  0000 C CNN
-	1    4450 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 1900 4450 2000
-$Comp
 L GND #PWR?
 U 1 1 53365597
 P 3600 8350
@@ -488,24 +254,6 @@ F 3 "" H 3600 8350 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	3600 8350 3600 8450
-Wire Wire Line
-	3850 1400 3850 1500
-Connection ~ 3850 1400
-Wire Wire Line
-	3650 1050 3900 1050
-Wire Wire Line
-	3900 1050 3900 1400
-Connection ~ 3900 1400
-Wire Wire Line
-	3850 1900 3450 1900
-Connection ~ 3450 1900
-Wire Wire Line
-	3750 1400 4550 1400
-Wire Wire Line
-	4550 1400 4550 1300
-Wire Wire Line
-	3800 2200 3800 2100
-Connection ~ 3800 2100
 $Comp
 L C_EL C?
 U 1 1 5336588A
@@ -662,9 +410,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 3100 10400 3100
 Wire Wire Line
-	6900 1850 6900 1750
-Text GLabel 4550 1300 1    60   Input ~ 0
-Vcc_reg
+	6900 1450 6900 1850
 Text GLabel 3950 9800 3    60   Input ~ 0
 Vee_reg
 Text GLabel 9350 3900 1    60   Input ~ 0
@@ -881,223 +627,6 @@ Wire Wire Line
 	9750 8000 9950 8000
 $Comp
 L INDUCTOR L?
-U 1 1 53371905
-P 3550 3550
-F 0 "L?" V 3500 3550 40  0000 C CNN
-F 1 "100uH" V 3650 3550 40  0000 C CNN
-F 2 "~" H 3550 3550 60  0000 C CNN
-F 3 "~" H 3550 3550 60  0000 C CNN
-	1    3550 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C_EL C?
-U 1 1 53371933
-P 3950 3850
-F 0 "C?" H 3970 3910 30  0000 L BNN
-F 1 "1000uF" H 3970 3760 30  0000 L TNN
-F 2 "~" H 3988 3700 30  0000 C CNN
-F 3 "~" H 3950 3850 60  0000 C CNN
-	1    3950 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_MKS2 C?
-U 1 1 53371942
-P 4250 3850
-F 0 "C?" H 4270 3910 30  0000 L BNN
-F 1 "4.7uF" H 4270 3790 30  0000 L TNN
-F 2 "~" H 4288 3700 30  0000 C CNN
-F 3 "~" H 4250 3850 60  0000 C CNN
-	1    4250 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_CER C?
-U 1 1 53371951
-P 4550 3850
-F 0 "C?" H 4570 3910 30  0000 L BNN
-F 1 "0.1uF" H 4570 3790 30  0000 L TNN
-F 2 "~" H 4588 3700 30  0000 C CNN
-F 3 "~" H 4550 3850 60  0000 C CNN
-	1    4550 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 3550 4650 3550
-Wire Wire Line
-	4650 3550 4650 3450
-Wire Wire Line
-	3950 3650 3950 3550
-Connection ~ 3950 3550
-Wire Wire Line
-	4250 3650 4250 3550
-Connection ~ 4250 3550
-Wire Wire Line
-	4550 3650 4550 3550
-Connection ~ 4550 3550
-$Comp
-L GND #PWR?
-U 1 1 53371BCF
-P 3950 4150
-F 0 "#PWR?" H 3950 4150 30  0001 C CNN
-F 1 "GND" H 3950 4080 30  0001 C CNN
-F 2 "" H 3950 4150 60  0000 C CNN
-F 3 "" H 3950 4150 60  0000 C CNN
-	1    3950 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 53371BDE
-P 4250 4150
-F 0 "#PWR?" H 4250 4150 30  0001 C CNN
-F 1 "GND" H 4250 4080 30  0001 C CNN
-F 2 "" H 4250 4150 60  0000 C CNN
-F 3 "" H 4250 4150 60  0000 C CNN
-	1    4250 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 53371BED
-P 4550 4150
-F 0 "#PWR?" H 4550 4150 30  0001 C CNN
-F 1 "GND" H 4550 4080 30  0001 C CNN
-F 2 "" H 4550 4150 60  0000 C CNN
-F 3 "" H 4550 4150 60  0000 C CNN
-	1    4550 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 4050 3950 4150
-Wire Wire Line
-	4250 4050 4250 4150
-Wire Wire Line
-	4550 4050 4550 4150
-Wire Wire Line
-	2250 3200 2300 3200
-Wire Wire Line
-	2300 3200 2300 3950
-Wire Wire Line
-	2300 3700 2250 3700
-Wire Wire Line
-	1700 3200 1750 3200
-Wire Wire Line
-	1700 3450 1750 3450
-Wire Wire Line
-	1700 3700 1750 3700
-Wire Wire Line
-	1150 3200 1200 3200
-Wire Wire Line
-	1150 3450 1200 3450
-Wire Wire Line
-	1150 3700 1200 3700
-Wire Wire Line
-	1700 3950 1750 3950
-Wire Wire Line
-	2300 3950 2250 3950
-Connection ~ 2300 3700
-Wire Wire Line
-	2250 3450 2300 3450
-Connection ~ 2300 3450
-Wire Wire Line
-	2300 3550 3250 3550
-Connection ~ 2300 3550
-Wire Wire Line
-	1150 3200 1150 3950
-Connection ~ 1150 3450
-Wire Wire Line
-	1150 3950 1200 3950
-Connection ~ 1150 3700
-Wire Wire Line
-	1150 3550 950  3550
-Wire Wire Line
-	950  3550 950  3450
-Connection ~ 1150 3550
-$Comp
-L C_EL C?
-U 1 1 53373574
-P 2550 3850
-F 0 "C?" H 2570 3910 30  0000 L BNN
-F 1 "1000uF" H 2570 3760 30  0000 L TNN
-F 2 "~" H 2588 3700 30  0000 C CNN
-F 3 "~" H 2550 3850 60  0000 C CNN
-	1    2550 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_MKS2 C?
-U 1 1 5337357A
-P 2850 3850
-F 0 "C?" H 2870 3910 30  0000 L BNN
-F 1 "4.7uF" H 2870 3790 30  0000 L TNN
-F 2 "~" H 2888 3700 30  0000 C CNN
-F 3 "~" H 2850 3850 60  0000 C CNN
-	1    2850 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_CER C?
-U 1 1 53373580
-P 3150 3850
-F 0 "C?" H 3170 3910 30  0000 L BNN
-F 1 "0.1uF" H 3170 3790 30  0000 L TNN
-F 2 "~" H 3188 3700 30  0000 C CNN
-F 3 "~" H 3150 3850 60  0000 C CNN
-	1    3150 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 53373586
-P 2550 4150
-F 0 "#PWR?" H 2550 4150 30  0001 C CNN
-F 1 "GND" H 2550 4080 30  0001 C CNN
-F 2 "" H 2550 4150 60  0000 C CNN
-F 3 "" H 2550 4150 60  0000 C CNN
-	1    2550 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5337358C
-P 2850 4150
-F 0 "#PWR?" H 2850 4150 30  0001 C CNN
-F 1 "GND" H 2850 4080 30  0001 C CNN
-F 2 "" H 2850 4150 60  0000 C CNN
-F 3 "" H 2850 4150 60  0000 C CNN
-	1    2850 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 53373592
-P 3150 4150
-F 0 "#PWR?" H 3150 4150 30  0001 C CNN
-F 1 "GND" H 3150 4080 30  0001 C CNN
-F 2 "" H 3150 4150 60  0000 C CNN
-F 3 "" H 3150 4150 60  0000 C CNN
-	1    3150 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 4050 2550 4150
-Wire Wire Line
-	2850 4050 2850 4150
-Wire Wire Line
-	3150 4050 3150 4150
-Wire Wire Line
-	2550 3650 2550 3550
-Connection ~ 2550 3550
-Wire Wire Line
-	2850 3650 2850 3550
-Connection ~ 2850 3550
-Wire Wire Line
-	3150 3650 3150 3550
-Connection ~ 3150 3550
-$Comp
-L INDUCTOR L?
 U 1 1 533738D5
 P 3450 7250
 F 0 "L?" V 3400 7250 40  0000 C CNN
@@ -1283,12 +812,6 @@ Text GLabel 1300 7350 3    60   Input ~ 0
 Vee_raw
 Text GLabel 4550 7400 3    60   Input ~ 0
 Vee_filt
-Text GLabel 950  3450 1    60   Input ~ 0
-Vcc_raw
-Text GLabel 4650 3450 1    60   Input ~ 0
-Vcc_filt
-Text GLabel 2850 1300 1    60   Input ~ 0
-Vcc_filt
 $Comp
 L R_0W25 R?
 U 1 1 53374617
@@ -1300,98 +823,44 @@ F 3 "~" H 1850 7250 30  0000 C CNN
 	1    1850 7250
 	0    -1   -1   0   
 $EndComp
-$Comp
-L R_0W5 R?
-U 1 1 53374998
-P 2000 3200
-F 0 "R?" V 2080 3200 40  0000 C CNN
-F 1 "1" V 2007 3201 40  0000 C CNN
-F 2 "~" V 1930 3200 30  0000 C CNN
-F 3 "~" H 2000 3200 30  0000 C CNN
-	1    2000 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_0W5 R?
-U 1 1 533749B4
-P 2000 3450
-F 0 "R?" V 2080 3450 40  0000 C CNN
-F 1 "1" V 2007 3451 40  0000 C CNN
-F 2 "~" V 1930 3450 30  0000 C CNN
-F 3 "~" H 2000 3450 30  0000 C CNN
-	1    2000 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_0W5 R?
-U 1 1 533749BA
-P 2000 3700
-F 0 "R?" V 2080 3700 40  0000 C CNN
-F 1 "1" V 2007 3701 40  0000 C CNN
-F 2 "~" V 1930 3700 30  0000 C CNN
-F 3 "~" H 2000 3700 30  0000 C CNN
-	1    2000 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_0W5 R?
-U 1 1 533749C0
-P 2000 3950
-F 0 "R?" V 2080 3950 40  0000 C CNN
-F 1 "1" V 2007 3951 40  0000 C CNN
-F 2 "~" V 1930 3950 30  0000 C CNN
-F 3 "~" H 2000 3950 30  0000 C CNN
-	1    2000 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_0W5 R?
-U 1 1 533749C6
-P 1450 3200
-F 0 "R?" V 1530 3200 40  0000 C CNN
-F 1 "1" V 1457 3201 40  0000 C CNN
-F 2 "~" V 1380 3200 30  0000 C CNN
-F 3 "~" H 1450 3200 30  0000 C CNN
-	1    1450 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_0W5 R?
-U 1 1 533749CC
-P 1450 3450
-F 0 "R?" V 1530 3450 40  0000 C CNN
-F 1 "1" V 1457 3451 40  0000 C CNN
-F 2 "~" V 1380 3450 30  0000 C CNN
-F 3 "~" H 1450 3450 30  0000 C CNN
-	1    1450 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_0W5 R?
-U 1 1 533749D2
-P 1450 3700
-F 0 "R?" V 1530 3700 40  0000 C CNN
-F 1 "1" V 1457 3701 40  0000 C CNN
-F 2 "~" V 1380 3700 30  0000 C CNN
-F 3 "~" H 1450 3700 30  0000 C CNN
-	1    1450 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_0W5 R?
-U 1 1 533749D8
-P 1450 3950
-F 0 "R?" V 1530 3950 40  0000 C CNN
-F 1 "1" V 1457 3951 40  0000 C CNN
-F 2 "~" V 1380 3950 30  0000 C CNN
-F 3 "~" H 1450 3950 30  0000 C CNN
-	1    1450 3950
-	0    -1   -1   0   
-$EndComp
-Text GLabel 6900 1750 1    60   Input ~ 0
-Vcc_filt
 Text Notes 1600 7050 0    40   ~ 0
 1 Ohm, 0.25 Watt\n(0.5 Amp limit)
-Text Notes 1450 2950 0    40   ~ 0
-0.5 Ohm, 4 Watt\n(8 Amp limit)
+$Sheet
+S 1150 1250 750  400 
+U 5337513C
+F0 "Vcc_input" 50
+F1 "Vcc_input.sch" 50
+F2 "Vcc_raw" I R 1900 1450 60 
+$EndSheet
+$Sheet
+S 2450 1250 1000 400 
+U 533755F1
+F0 "Vcc_filter" 50
+F1 "Vcc_filter.sch" 50
+F2 "Vcc_raw" I L 2450 1450 60 
+F3 "Vcc_filt" I R 3450 1450 60 
+$EndSheet
+$Sheet
+S 3950 2200 950  400 
+U 5337616A
+F0 "Vcc_reg" 50
+F1 "Vcc_reg.sch" 50
+F2 "Vcc_filt" I L 3950 2400 60 
+F3 "Vcc_reg" I R 4900 2400 60 
+$EndSheet
+Wire Wire Line
+	1900 1450 2450 1450
+Wire Wire Line
+	3450 1450 6900 1450
+Wire Wire Line
+	3650 1450 3650 2400
+Wire Wire Line
+	3650 2400 3950 2400
+Text GLabel 5100 2300 1    60   Input ~ 0
+Vcc_reg
+Wire Wire Line
+	4900 2400 5100 2400
+Wire Wire Line
+	5100 2400 5100 2300
+Connection ~ 3650 1450
 $EndSCHEMATC

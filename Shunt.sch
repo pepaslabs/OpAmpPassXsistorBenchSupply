@@ -41,7 +41,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 8 9
 Title ""
 Date "29 mar 2014"
 Rev ""
@@ -52,38 +52,26 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BARREL_JACK CON?
-U 1 1 5337866E
-P 5450 3550
-F 0 "CON?" H 5450 3750 40  0000 C CNN
-F 1 "2.1x5.5mm" H 5450 3400 40  0000 C CNN
-F 2 "~" H 5450 3550 60  0000 C CNN
-F 3 "~" H 5450 3550 60  0000 C CNN
-	1    5450 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 53378674
-P 5850 3350
-F 0 "#PWR?" H 5850 3350 30  0001 C CNN
-F 1 "GND" H 5850 3280 30  0001 C CNN
-F 2 "" H 5850 3350 60  0000 C CNN
-F 3 "" H 5850 3350 60  0000 C CNN
-	1    5850 3350
-	-1   0    0    1   
+L R_0W5_1PCT R?
+U 1 1 53383531
+P 5600 3900
+F 0 "R?" V 5680 3900 40  0000 C CNN
+F 1 "R_0W5_1PCT" V 5607 3901 40  0000 C CNN
+F 2 "~" V 5530 3900 30  0000 C CNN
+F 3 "~" H 5600 3900 30  0000 C CNN
+	1    5600 3900
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5750 3450 5850 3450
+	5250 3800 5250 3900
 Wire Wire Line
-	5850 3450 5850 3350
+	5950 3800 5950 3900
 Wire Wire Line
-	5750 3650 5850 3650
+	5250 3900 5350 3900
 Wire Wire Line
-	5850 3550 5850 3750
-Wire Wire Line
-	5750 3550 5850 3550
-Connection ~ 5850 3650
-Text HLabel 5850 3750 3    60   Input ~ 0
-Vee_raw
+	5950 3900 5850 3900
+Text HLabel 5250 3800 1    60   Input ~ 0
+Shunt+
+Text HLabel 5950 3800 1    60   Input ~ 0
+Shunt-
 $EndSCHEMATC

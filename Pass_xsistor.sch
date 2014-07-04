@@ -1,11 +1,20 @@
 EESchema Schematic File Version 2
+LIBS:OpAmpPassXsistorBenchSupply-cache
 LIBS:opamps_PL
-LIBS:transistors_PL
-LIBS:diodes_PL
-LIBS:resistors_PL
-LIBS:capacitors_PL
+LIBS:opto_PL
 LIBS:regulators_PL
+LIBS:relays_PL
+LIBS:resistors_PL
+LIBS:switches_PL
+LIBS:transistors_PL
+LIBS:analog_ICs_PL
+LIBS:capacitors_PL
 LIBS:connectors_PL
+LIBS:diodes_PL
+LIBS:displays_PL
+LIBS:LEDs_PL
+LIBS:microcontrollers_PL
+LIBS:mounting_holes_PL
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,7 +50,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 6 6
 Title ""
 Date "4 jul 2014"
 Rev ""

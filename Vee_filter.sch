@@ -1,11 +1,19 @@
 EESchema Schematic File Version 2
 LIBS:opamps_PL
-LIBS:transistors_PL
-LIBS:diodes_PL
-LIBS:resistors_PL
-LIBS:capacitors_PL
+LIBS:opto_PL
 LIBS:regulators_PL
+LIBS:relays_PL
+LIBS:resistors_PL
+LIBS:switches_PL
+LIBS:transistors_PL
+LIBS:analog_ICs_PL
+LIBS:capacitors_PL
 LIBS:connectors_PL
+LIBS:diodes_PL
+LIBS:displays_PL
+LIBS:LEDs_PL
+LIBS:microcontrollers_PL
+LIBS:mounting_holes_PL
 LIBS:power
 LIBS:device
 LIBS:transistors

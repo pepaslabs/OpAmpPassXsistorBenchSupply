@@ -43,7 +43,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "29 mar 2014"
+Date "4 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -268,53 +268,15 @@ Connection ~ 5200 3700
 Wire Wire Line
 	5500 3800 5500 3700
 Connection ~ 5500 3700
+Text Notes 3800 3100 0    40   ~ 0
+0.5 Ohm, 2 Watt\n(2 Amp limit)
+Text HLabel 3300 3600 1    60   Input ~ 0
+Vcc_raw
+Text HLabel 7000 3600 1    60   Input ~ 0
+Vcc_filt
 $Comp
-L R_0W5 R?
-U 1 1 5337567E
-P 4350 3350
-F 0 "R?" V 4430 3350 40  0000 C CNN
-F 1 "1" V 4357 3351 40  0000 C CNN
-F 2 "~" V 4280 3350 30  0000 C CNN
-F 3 "~" H 4350 3350 30  0000 C CNN
-	1    4350 3350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_0W5 R?
-U 1 1 53375684
-P 4350 3600
-F 0 "R?" V 4430 3600 40  0000 C CNN
-F 1 "1" V 4357 3601 40  0000 C CNN
-F 2 "~" V 4280 3600 30  0000 C CNN
-F 3 "~" H 4350 3600 30  0000 C CNN
-	1    4350 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_0W5 R?
-U 1 1 5337568A
-P 4350 3850
-F 0 "R?" V 4430 3850 40  0000 C CNN
-F 1 "1" V 4357 3851 40  0000 C CNN
-F 2 "~" V 4280 3850 30  0000 C CNN
-F 3 "~" H 4350 3850 30  0000 C CNN
-	1    4350 3850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_0W5 R?
-U 1 1 53375690
-P 4350 4100
-F 0 "R?" V 4430 4100 40  0000 C CNN
-F 1 "1" V 4357 4101 40  0000 C CNN
-F 2 "~" V 4280 4100 30  0000 C CNN
-F 3 "~" H 4350 4100 30  0000 C CNN
-	1    4350 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_0W5 R?
-U 1 1 53375696
+L R_0W25_1PCT R?
+U 1 1 53B63BB9
 P 3800 3350
 F 0 "R?" V 3880 3350 40  0000 C CNN
 F 1 "1" V 3807 3351 40  0000 C CNN
@@ -324,8 +286,8 @@ F 3 "~" H 3800 3350 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_0W5 R?
-U 1 1 5337569C
+L R_0W25_1PCT R?
+U 1 1 53B63BD5
 P 3800 3600
 F 0 "R?" V 3880 3600 40  0000 C CNN
 F 1 "1" V 3807 3601 40  0000 C CNN
@@ -335,8 +297,8 @@ F 3 "~" H 3800 3600 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_0W5 R?
-U 1 1 533756A2
+L R_0W25_1PCT R?
+U 1 1 53B63BDB
 P 3800 3850
 F 0 "R?" V 3880 3850 40  0000 C CNN
 F 1 "1" V 3807 3851 40  0000 C CNN
@@ -346,8 +308,8 @@ F 3 "~" H 3800 3850 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_0W5 R?
-U 1 1 533756A8
+L R_0W25_1PCT R?
+U 1 1 53B63BE1
 P 3800 4100
 F 0 "R?" V 3880 4100 40  0000 C CNN
 F 1 "1" V 3807 4101 40  0000 C CNN
@@ -356,10 +318,48 @@ F 3 "~" H 3800 4100 30  0000 C CNN
 	1    3800 4100
 	0    -1   -1   0   
 $EndComp
-Text Notes 3800 3100 0    40   ~ 0
-0.5 Ohm, 4 Watt\n(8 Amp limit)
-Text HLabel 3300 3600 1    60   Input ~ 0
-Vcc_raw
-Text HLabel 7000 3600 1    60   Input ~ 0
-Vcc_filt
+$Comp
+L R_0W25_1PCT R?
+U 1 1 53B63BE7
+P 4350 3350
+F 0 "R?" V 4430 3350 40  0000 C CNN
+F 1 "1" V 4357 3351 40  0000 C CNN
+F 2 "~" V 4280 3350 30  0000 C CNN
+F 3 "~" H 4350 3350 30  0000 C CNN
+	1    4350 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_0W25_1PCT R?
+U 1 1 53B63BED
+P 4350 3600
+F 0 "R?" V 4430 3600 40  0000 C CNN
+F 1 "1" V 4357 3601 40  0000 C CNN
+F 2 "~" V 4280 3600 30  0000 C CNN
+F 3 "~" H 4350 3600 30  0000 C CNN
+	1    4350 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_0W25_1PCT R?
+U 1 1 53B63BF3
+P 4350 3850
+F 0 "R?" V 4430 3850 40  0000 C CNN
+F 1 "1" V 4357 3851 40  0000 C CNN
+F 2 "~" V 4280 3850 30  0000 C CNN
+F 3 "~" H 4350 3850 30  0000 C CNN
+	1    4350 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_0W25_1PCT R?
+U 1 1 53B63BF9
+P 4350 4100
+F 0 "R?" V 4430 4100 40  0000 C CNN
+F 1 "1" V 4357 4101 40  0000 C CNN
+F 2 "~" V 4280 4100 30  0000 C CNN
+F 3 "~" H 4350 4100 30  0000 C CNN
+	1    4350 4100
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

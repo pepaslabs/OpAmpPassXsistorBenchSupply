@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 7/6/2014 10:48:33 AM
+EESchema-LIBRARY Version 2.3  Date: 7/4/2014 1:28:45 AM
 #encoding utf-8
 #
 # TL431
@@ -8,10 +8,6 @@ F0 "U" 75 -150 40 H V L CNN
 F1 "TL431" 75 -225 40 H V L CNN
 F2 "~" 150 -300 30 H I C CNN
 F3 "~" 0 0 60 H V C CNN
-ALIAS TL431A
-$FPLIST
- TO-92*
-$ENDFPLIST
 DRAW
 S -100 -100 100 100 0 1 10 f
 P 2 0 1 0  0 -100  0 -50 N

@@ -1,31 +1,31 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/4/2014 3:15:56 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/6/2014 2:50:55 PM
 
 BeginCmp
 TimeStamp = /53B7BB06;
 Reference = C1;
 ValeurCmp = 100uF;
-IdModule  = ELCAP_10_20_V_059A;
+IdModule  = MedCap;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B7BB1E;
 Reference = C2;
 ValeurCmp = 1uF;
-IdModule  = C2;
+IdModule  = BOXCAP_02_03_02_059C;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B7BAE8;
 Reference = C3;
 ValeurCmp = 100uF;
-IdModule  = ELCAP_10_20_V_059A;
+IdModule  = MedCap;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B7BB24;
 Reference = C4;
 ValeurCmp = 1uF;
-IdModule  = C2;
+IdModule  = BOXCAP_02_03_02_059C;
 EndCmp
 
 BeginCmp
@@ -39,28 +39,28 @@ BeginCmp
 TimeStamp = /53B7B4A2;
 Reference = C6;
 ValeurCmp = 1000uF;
-IdModule  = ELCAP_20_52_V_069Bo;
+IdModule  = BigCap;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B7B4ED;
 Reference = C7;
 ValeurCmp = 1uF;
-IdModule  = C2;
+IdModule  = BOXCAP_02_03_02_059C;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B7B467;
 Reference = C8;
 ValeurCmp = 1000uF;
-IdModule  = ELCAP_20_52_V_069Bo;
+IdModule  = BigCap;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B7B4F3;
 Reference = C9;
 ValeurCmp = 1uF;
-IdModule  = C2;
+IdModule  = BOXCAP_02_03_02_059C;
 EndCmp
 
 BeginCmp
@@ -92,6 +92,27 @@ IdModule  = CERCAP_2_059A;
 EndCmp
 
 BeginCmp
+TimeStamp = /53B996B0;
+Reference = C14;
+ValeurCmp = 0.1uF;
+IdModule  = CERCAP_2_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B996B6;
+Reference = C15;
+ValeurCmp = 0.1uF;
+IdModule  = CERCAP_2_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B9A87B;
+Reference = C16;
+ValeurCmp = 0.1uF;
+IdModule  = CERCAP_2_059A;
+EndCmp
+
+BeginCmp
 TimeStamp = /53B7A169;
 Reference = CON1;
 ValeurCmp = 2.5x5.5mm;
@@ -106,6 +127,20 @@ IdModule  = BARREL_JACK_21x55;
 EndCmp
 
 BeginCmp
+TimeStamp = /53B90054;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED_3MM_069A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B8FB3C;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED_3MM_069A;
+EndCmp
+
+BeginCmp
 TimeStamp = /53B75FF5;
 Reference = DS1;
 ValeurCmp = AMMETER_V;
@@ -117,6 +152,34 @@ TimeStamp = /53B74603;
 Reference = DS2;
 ValeurCmp = VOLTMETER;
 IdModule  = DVM036A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B98C76;
+Reference = FB1;
+ValeurCmp = FERRITE_BEAD;
+IdModule  = FERRITE_AXIAL_06_069A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B988E1;
+Reference = FB2;
+ValeurCmp = FERRITE_BEAD;
+IdModule  = FERRITE_AXIAL_06_069A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B98B8D;
+Reference = FB3;
+ValeurCmp = FERRITE_BEAD;
+IdModule  = FERRITE_AXIAL_06_069A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B98AA4;
+Reference = FB4;
+ValeurCmp = FERRITE_BEAD;
+IdModule  = FERRITE_AXIAL_06_069A;
 EndCmp
 
 BeginCmp
@@ -150,15 +213,15 @@ EndCmp
 BeginCmp
 TimeStamp = /53B7BAE2;
 Reference = L1;
-ValeurCmp = 10uH;
+ValeurCmp = 100uH, 100mA;
 IdModule  = R_AXIAL_0W25_059Bi;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B7B461;
 Reference = L2;
-ValeurCmp = 100uH;
-IdModule  = ;
+ValeurCmp = 100uH, 2A;
+IdModule  = Toroid_V_06_03_069Bi;
 EndCmp
 
 BeginCmp
@@ -197,7 +260,21 @@ IdModule  = TO-220_V_069B;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B7BD41;
+TimeStamp = /53B90061;
+Reference = Q4;
+ValeurCmp = 2N3904;
+IdModule  = TO-92_Q_EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B8FC19;
+Reference = Q5;
+ValeurCmp = 2N3904;
+IdModule  = TO-92_Q_EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B900C0;
 Reference = R1;
 ValeurCmp = 1;
 IdModule  = R_AXIAL_0W25_059Bi;
@@ -225,56 +302,56 @@ IdModule  = R_AXIAL_0W25_059Bi;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B7B4BD;
+TimeStamp = /53B8F999;
 Reference = R5;
-ValeurCmp = 1;
+ValeurCmp = 0;
 IdModule  = R_AXIAL_0W25_059Bi;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B7B4C3;
+TimeStamp = /53B8F981;
 Reference = R6;
-ValeurCmp = 1;
+ValeurCmp = 0;
 IdModule  = R_AXIAL_0W25_059Bi;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B7B4C9;
+TimeStamp = /53B90075;
 Reference = R7;
 ValeurCmp = 1;
 IdModule  = R_AXIAL_0W25_059Bi;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B7B4CF;
+TimeStamp = /53B90096;
 Reference = R8;
 ValeurCmp = 1;
 IdModule  = R_AXIAL_0W25_059Bi;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B7B4D5;
+TimeStamp = /53B9009C;
 Reference = R9;
 ValeurCmp = 1;
 IdModule  = R_AXIAL_0W25_059Bi;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B7B4DB;
+TimeStamp = /53B900A2;
 Reference = R10;
 ValeurCmp = 1;
 IdModule  = R_AXIAL_0W25_059Bi;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B7B4E1;
+TimeStamp = /53B900A8;
 Reference = R11;
 ValeurCmp = 1;
 IdModule  = R_AXIAL_0W25_059Bi;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B7B4E7;
+TimeStamp = /53B900AE;
 Reference = R12;
 ValeurCmp = 1;
 IdModule  = R_AXIAL_0W25_059Bi;
@@ -421,6 +498,48 @@ IdModule  = R_AXIAL_0W25_059Bi;
 EndCmp
 
 BeginCmp
+TimeStamp = /53B900B4;
+Reference = R33;
+ValeurCmp = 1;
+IdModule  = R_AXIAL_0W25_059Bi;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B900BA;
+Reference = R34;
+ValeurCmp = 1;
+IdModule  = R_AXIAL_0W25_059Bi;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B9005B;
+Reference = R35;
+ValeurCmp = 220;
+IdModule  = R_AXIAL_0W25_059Bi;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B8FC0C;
+Reference = R36;
+ValeurCmp = 220;
+IdModule  = R_AXIAL_0W25_059Bi;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B99CE4;
+Reference = R37;
+ValeurCmp = 1k;
+IdModule  = R_AXIAL_0W25_059Bi;
+EndCmp
+
+BeginCmp
+TimeStamp = /53B99AA6;
+Reference = R38;
+ValeurCmp = 1k;
+IdModule  = R_AXIAL_0W25_059Bi;
+EndCmp
+
+BeginCmp
 TimeStamp = /53B70498;
 Reference = RV1;
 ValeurCmp = 1k;
@@ -466,7 +585,7 @@ BeginCmp
 TimeStamp = /53B70B00;
 Reference = U1;
 ValeurCmp = TL431;
-IdModule  = TO92-123;
+IdModule  = TO-92_U_059Bo;
 EndCmp
 
 BeginCmp
